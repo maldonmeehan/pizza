@@ -21,5 +21,8 @@ $(document).ready(function() {
     var meat =parseInt($("#meat").val());
     var veg =parseInt($("#veg").val());
     var extra =parseInt($("#extra").val());
+    var newPizza = new Pizza(size, meat, veg, extra);
+    $("#show-price").show();
+    $("#price").text(newPizza.pizzaPrice());
   });
 });
