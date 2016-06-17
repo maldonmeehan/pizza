@@ -4,7 +4,6 @@
 
 #### By _**Maldon Meehan**_
 
-
 ## Description
 
 _This is the final Epicodus student project for Intro to Programing Week 4. The assignment was to create a website for a pizza company where a user can choose one or more individual toppings (cheese, pepperoni, artichoke, anchovy, etc) and a size to order a pizza and see the final cost._
