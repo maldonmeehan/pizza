@@ -1,5 +1,5 @@
 body {
-    background-color: #FFF8DC;
+
 }
 
 h2{
@@ -15,7 +15,7 @@ p {
 }
 
 .header {
-  color: red;
+  color: gray;
   text-shadow: black 0.4em 0.4em 0.4em;
 }
 
@@ -31,6 +31,10 @@ p {
 
 .btn {
   margin-top: 10px;
+}
+
+.name{
+  color: red;
 }
 
 #show-price {

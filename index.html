@@ -10,10 +10,6 @@
   <body>
     <div class="container">
       <header class="page-header">
-        <!-- <ul class="nav nav-tabs pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="mailto:maldonmeehan@gmail.com">Contact</a></li>
-        </ul> -->
         <h2 class="header">We Knead Pizza Company</h2>
       </header>
       <div class="jumbotron">
@@ -21,6 +17,10 @@
         <p class="lead">Our Cheese Pizza Story: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
       </div>
       <form id="order-piza">
+        <div class="form-group">
+          <h3>Enter Name:</h3>
+          <input id="name" class="form-control" type="text">
+        </div>
         <h3>What size would you like?</h3>
         <select class="form-control" id="size">
           <option value="10">Small</option>
@@ -28,6 +28,7 @@
           <option value="15">Large</option>
         </select>
         <h3>What meat would you like?</h3>
+        <p>Meat, Meat, Meat</p>
         <select class="form-control" id="meat">
           <option value="2">Pepperoni</option>
           <option value="2">Ham</option>
@@ -37,6 +38,7 @@
           <option value="2">Anchovies</option>
         </select>
         <h3>What veggie would you like?</h3>
+        <p>Veggies just the way you like them: Crisp, full of nutrients, and on pizza.</p>
         <select class="form-control" id="veg">
           <option value="1">Roma Tomatoes</option>
           <option value="1">Sun Dried Tomatoes</option>
@@ -56,11 +58,14 @@
           <option value="1">Cheese</option>
           <option value="1">Sauce</option>
           <option value="2">Double Meat</option>
-          <option value="2">Double Veggies</option>
+          <option value="1">Double Veggies</option>
+          <option value="4">Triple Meat</option>
+          <option value="2">Triple Veggies</option>
         </select>
         <button type="submit" class="btn btn-danger">Order Piza</button>
       </form>
       <div id="show-price">
+        <p><span class="name"></span>, thank you for ordering here is your pizza price:</p>
         <p>$<span id=price></span></p>
       </div>
     </div>

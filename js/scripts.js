@@ -22,6 +22,8 @@ $(document).ready(function() {
     var veg =parseInt($("#veg").val());
     var extra =parseInt($("#extra").val());
     var newPizza = new Pizza(size, meat, veg, extra);
+    var nameInput = $("input#name").val();
+    $(".name").text(nameInput);
     $("#show-price").show();
     $("#price").text(newPizza.pizzaPrice());
   });
