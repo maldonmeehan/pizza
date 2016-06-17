@@ -11,31 +11,37 @@
     <div class="container">
       <h1>Pizza Company</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-      <h3>What size would you like?</h3>
-      <select class="form-control" id="size">
-        <option value="10">Small</option>
-        <option value="12">Meduim</option>
-        <option value="15">Large</option>
-      </select>
-      <h3>What meat would you like?</h3>
-      <select class="form-control" id="meat">
-        <option value="1">Pepperoni</option>
-        <option value="1">Salami</option>
-        <option value="1">Bacon</option>
-      </select>
-      <h3>What veggie would you like?</h3>
-      <select class="form-control" id="meat">
-        <option value="1">Onions</option>
-        <option value="1">Black Olives</option>
-        <option value="1">Mushrooms</option>
-      </select>
-      <h3>What extras would you like?</h3>
-      <select class="form-control" id="meat">
-        <option value="1">Cheese</option>
-        <option value="1">Sauce</option>
-        <option value="1">meat</option>
-        <option value="1">veg</option>
-      </select>
+      <form id="order-piza">
+        <h3>What size would you like?</h3>
+        <select class="form-control" id="size">
+          <option value="10">Small</option>
+          <option value="12">Meduim</option>
+          <option value="15">Large</option>
+        </select>
+        <h3>What meat would you like?</h3>
+        <select class="form-control" id="meat">
+          <option value="1">Pepperoni</option>
+          <option value="1">Salami</option>
+          <option value="1">Bacon</option>
+        </select>
+        <h3>What veggie would you like?</h3>
+        <select class="form-control" id="meat">
+          <option value="1">Onions</option>
+          <option value="1">Black Olives</option>
+          <option value="1">Mushrooms</option>
+        </select>
+        <h3>What extras would you like?</h3>
+        <select class="form-control" id="meat">
+          <option value="1">Cheese</option>
+          <option value="1">Sauce</option>
+          <option value="1">meat</option>
+          <option value="1">veg</option>
+        </select>
+        <button type="submit" class="btn">Order Piza</button>
+      </form>
+      <div id="show-price">
+        <p>$<span id=price></span></p>
+      </div>
     </div>
   </body>
 </html>
