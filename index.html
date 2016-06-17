@@ -5,104 +5,119 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.12.4.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Pizza Company</title>
+    <title>Lorem Ipsum Pizza Company</title>
   </head>
   <body>
     <!-- header -->
     <div class="container">
+      <header class="page-header" id="tabs">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="https://github.com/maldonmeehan">Portfolio</a></li>
+          <li><a href="mailto:maldonmeehan@gmail.com">Contact</a></li>
+        </ul>
+      </header>
       <header class="page-header">
-        <h2 class="header">We Knead Pizza Company</h2>
+        <h2 class="header">Lorem Ipsum Pizza Company</h2>
       </header>
       <div class="jumbotron">
         <h1>Order your Pizza NOW! </h1>
-        <p class="lead">Our Cheese Pizza Story: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
       </div>
       <!-- pizza order form -->
       <hr>
       <div class="row">
         <div class=col-md-6>
           <form id="order-piza">
-              <div class="form-group">
-                <h3>Your Name:</h3>
-                <input id="name" class="form-control" type="text">
-              </div>
-          <h3>What size would you like?</h3>
-          <select class="form-control" id="size">
-            <option value="10">Small</option>
-            <option value="12">Meduim</option>
-            <option value="15">Large</option>
-            <option value="20">Masive</option>
-
-          </select>
-          <h3>What meat would you like?</h3>
-          <p>Meat, Meat, Meat</p>
-          <select class="form-control" id="meat">
-            <option value="2">Pepperoni</option>
-            <option value="2">Ham</option>
-            <option value="2">Salami</option>
-            <option value="2">Chicken</option>
-            <option value="2">Bacon</option>
-            <option value="2">Anchovies</option>
-            <option value="5">The Works</option>
-          </select>
-          <h3>What veggie would you like?</h3>
-          <p>Veggies just the way you like them: Crisp, full of nutrients, and on pizza.</p>
-          <select class="form-control" id="veg">
-            <option value="1">Roma Tomatoes</option>
-            <option value="1">Sun Dried Tomatoes</option>
-            <option value="1">Onions</option>
-            <option value="1">Red Onions</option>
-            <option value="1">Camamelized Onions</option>
-            <option value="1">Black Olives</option>
-            <option value="1">Green Olives</option>
-            <option value="1">Kalamata Olives</option>
-            <option value="1">Spinach</option>
-            <option value="1">Green Pepers</option>
-            <option value="1">Roasted Red Pepers</option>
-            <option value="1">Grilled Zucchini</option>
-            <option value="5">The Whole Garden</option>
-          </select>
-          <h3>What extras would you like?</h3>
-          <select class="form-control" id="extra">
-            <option value="1">Cheese</option>
-            <option value="1">Sauce</option>
-            <option value="2">Double Meat</option>
-            <option value="2">Double Veggies</option>
-            <option value="4">Triple Meat</option>
-            <option value="2">Triple Veggies</option>
-          </select>
+            <div class="form-group">
+              <h3>Your Name:</h3>
+              <input id="name" class="form-control" type="text">
+            </div>
+            <h3>What size would you like?</h3>
+            <select class="form-control" id="size">
+              <option value="10">Small</option>
+              <option value="12">Meduim</option>
+              <option value="15">Large</option>
+              <option value="20">Masive</option>
+            </select>
+            <h3>What meat would you like?</h3>
+            <p>Meat, Meat, Meat and more meat</p>
+            <select class="form-control" id="meat">
+              <option value="2">Pepperoni</option>
+              <option value="2">Ham</option>
+              <option value="2">Salami</option>
+              <option value="2">Chicken</option>
+              <option value="2">Bacon</option>
+              <option value="2">Anchovies</option>
+              <option value="8">The Lorem Ipsum Meat Extravaganza</option>
+            </select>
+            <h3>What veggie would you like?</h3>
+            <p>Veggies just the way you like them: Crisp, full of nutrients, and on pizza.</p>
+            <select class="form-control" id="veg">
+              <option value="1">Roma Tomatoes</option>
+              <option value="1">Sun Dried Tomatoes</option>
+              <option value="1">Onions</option>
+              <option value="1">Red Onions</option>
+              <option value="1">Camamelized Onions</option>
+              <option value="1">Black Olives</option>
+              <option value="1">Green Olives</option>
+              <option value="1">Kalamata Olives</option>
+              <option value="1">Spinach</option>
+              <option value="1">Green Pepers</option>
+              <option value="1">Roasted Red Pepers</option>
+              <option value="1">Grilled Zucchini</option>
+              <option value="5">The Whole Garden</option>
+            </select>
+            <h3>What extras would you like?</h3>
+            <select class="form-control" id="extra">
+              <option value="1">Cheese</option>
+              <option value="1">Sauce</option>
+              <option value="2">Double Meat</option>
+              <option value="2">Double Veggies</option>
+              <option value="4">Triple Meat</option>
+              <option value="2">Triple Veggies</option>
+            </select>
             <button type="submit" class="btn btn-danger">Order Pizza NOW!</button>
-      </form>
-      </div>
-      <!-- pizza price -->
-      <div class=col-md-6>
-        <h2>Enjoy your Pizza</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-        <div id="show-price">
-          <h4><span class="name"></span>, thank you for ordering. </h4>
-          <h4>Your total will be:</h4>
-          <h3>$<span id=price></span></h3>
-          <img class="img-display" src="img/bg-pizza6.png" alt="pizza">
+          </form>
+        </div>
+        <!-- pizza Out Put -->
+          <div class=col-md-6>
+            <h2>Enjoy your Pizza</h2>
+            <p>We make Lorem Ipsum Pizza with only the best ingredients</p>
+            <img class="img-display" src="img/bg-pizza6.png" alt="pizza">
+          <div id="show-price">
+            <h4><span class="name"></span>, thank you for ordering. </h4>
+            <h4>Your total will be:</h4>
+            <h3>$<span id=price></span></h3>
+          </div>
         </div>
       </div>
-    </div>
       <hr>
-      <h2>We Knead Pizza Company</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+      <h2>Lorem Ipsum Pizza Company</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
       <hr>
       <div class="row">
-      <div class=col-md-4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
-        <img class="img" src="img/createown.jpeg" alt="Trump">
+        <div class=col-md-3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <img class="img" src="img/pizza-box.jpg" alt="Lorem Ipsum Pizza Company">
+        </div>
+        <div class=col-md-3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <img class="img" src="img/createown.jpeg" alt="Lorem Ipsum Pizza Company">
+        </div>
+        <div class=col-md-3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <img class="img" src="img/pizzatop.jpg" alt="Lorem Ipsum Pizza Company">
+        </div>
+        <div class=col-md-3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <img class="img" src="img/pizza2.jpeg" alt="Lorem Ipsum Pizza Company">
+        </div>
       </div>
-      <div class=col-md-4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-        <img class="img" src="img/pizzatop.jpg" alt="Trump">
-      </div>
-      <div class=col-md-4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-        <img class="img" src="img/pizza2.jpeg" alt="Trump">
-      </div>
+      <hr>
+      <footer class="footer">
+        <p>Maldon Meehan &copy; 2016, Epicodus Student Project: Intro to Programing: Week 4</p>
+        <img class="img" src="img/menu.jpg" alt="Lorem Ipsum Pizza Company">
+      </footer>
     </div>
   </body>
 </html>

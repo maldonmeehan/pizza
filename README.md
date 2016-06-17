@@ -32,7 +32,7 @@ _This is the final Epicodus student project for Intro to Programing Week 4. The 
 * Open web browser of choice
 
 ## Known Bugs
-* Non at this point
+* Can currently submit without filling in Full Name input.
 
 ## Support and contact details
 
@@ -49,7 +49,7 @@ _Contact Maldon Meehan on Github for questions or concerns or to add to this pro
 
 ### License
 
-Copyright (c) 2015 **Epicodus**
+Copyright (c) 2016 **Epicodus**
 
 This software is licensed under the MIT license.
 
