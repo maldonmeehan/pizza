@@ -1,4 +1,38 @@
+body {
+    background-color: #FFF8DC;
+}
+
+h2{
+  font-family:cursive;
+}
+
+h3{
+  font-style: italic;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.header {
+  color: red;
+  text-shadow: black 0.4em 0.4em 0.4em;
+}
+
+.jumbotron {
+  margin-bottom: 1px;
+  background-image: url(../img/pizza-cover.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: gray;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
 #show-price {
   display: none;
 }
- 

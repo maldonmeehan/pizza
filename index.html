@@ -9,8 +9,17 @@
   </head>
   <body>
     <div class="container">
-      <h1>Pizza Company</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      <header class="page-header">
+        <!-- <ul class="nav nav-tabs pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="mailto:maldonmeehan@gmail.com">Contact</a></li>
+        </ul> -->
+        <h2 class="header">We Knead Pizza Company</h2>
+      </header>
+      <div class="jumbotron">
+        <h1>Order your Pizza NOW! </h1>
+        <p class="lead">Our Cheese Pizza Story: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      </div>
       <form id="order-piza">
         <h3>What size would you like?</h3>
         <select class="form-control" id="size">
@@ -20,24 +29,36 @@
         </select>
         <h3>What meat would you like?</h3>
         <select class="form-control" id="meat">
-          <option value="1">Pepperoni</option>
-          <option value="1">Salami</option>
-          <option value="1">Bacon</option>
+          <option value="2">Pepperoni</option>
+          <option value="2">Ham</option>
+          <option value="2">Salami</option>
+          <option value="2">Chicken</option>
+          <option value="2">Bacon</option>
+          <option value="2">Anchovies</option>
         </select>
         <h3>What veggie would you like?</h3>
         <select class="form-control" id="veg">
+          <option value="1">Roma Tomatoes</option>
+          <option value="1">Sun Dried Tomatoes</option>
           <option value="1">Onions</option>
+          <option value="1">Red Onions</option>
+          <option value="1">Camamelized Onions</option>
           <option value="1">Black Olives</option>
-          <option value="1">Mushrooms</option>
+          <option value="1">Green Olives</option>
+          <option value="1">Kalamata Olives</option>
+          <option value="1">Spinach</option>
+          <option value="1">Green Pepers</option>
+          <option value="1">Roasted Red Pepers</option>
+          <option value="1">Grilled Zucchini</option>
         </select>
         <h3>What extras would you like?</h3>
         <select class="form-control" id="extra">
           <option value="1">Cheese</option>
           <option value="1">Sauce</option>
-          <option value="1">meat</option>
-          <option value="1">veg</option>
+          <option value="2">Double Meat</option>
+          <option value="2">Double Veggies</option>
         </select>
-        <button type="submit" class="btn">Order Piza</button>
+        <button type="submit" class="btn btn-danger">Order Piza</button>
       </form>
       <div id="show-price">
         <p>$<span id=price></span></p>
